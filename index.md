@@ -1,4 +1,4 @@
-## Introduction
+# Introduction
 
 The way in which human beings express their emotions
 has always been a topic of interest in psychological study.
