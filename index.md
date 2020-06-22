@@ -88,6 +88,21 @@ model on it and source data. We used two classifeirs, VGG16 and ResNET18, for th
 than what was expected. We are working on an unsupervised technique for domain adaptation as proposed in [4].
 The WGAN used in it is not yet producing promising results so we didn’t include its results in the report.
 
+# Results
+
+Then we used CycleGAN to generate Target Domain like
+samples from source dataset. After this, we fine tuned our
+models on these samples along with source samples. Following are the results of it.
+```
+Target Dataset Accuracy for ResNET18 = 0.41
+Target Dataset Accuracy for VGG16 = 0.48
+```
+Above results can be explained as we had less samples
+for emotions like disgust, fear, surprise as compared to other
+emotions in our target dataset, so CycleGAN generated less
+samples for them and thus these emotions didn’t contributed
+well in fine-tuning of our model.
+
 # Conclusion
 
 We are using Input Space Domain Adaptation to address our problem. In our experiments we generated target
