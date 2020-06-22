@@ -8,14 +8,13 @@ same stimuli, and the way of their emotional expression sets
 them apart from any other group of interest. The common
 factors in this change of expressions are observed as gender,
 cultural influences, age, and the environment. Expression of
-the commonly observed emotions such as happiness, fear,
-disgust, and sadness is specific to the individuals, based
+the commonly observed emotions such as *happiness*, *fear*,
+*disgust*, and *sadness* is specific to the individuals, based
 on their personality traits. The expressions of an introvert
 would be different from that of an extrovert when subjected
 to the same stimuli, and having same emotional changes.
-In this problem, our main focus is the facial expression
-recognition, as the reaction to a stimulus is first observed
-through face. As cultural factors influence the display of
+> In this problem, our main focus is the facial expression recognition, as the reaction to a stimulus is first observed through face. 
+As cultural factors influence the display of
 emotions, and we are dealing with the Indo-Pak ethnicity,we show how an ethnicity-specific classifier is built using
 the target domain data that is unlabeled. The assumptions
 made by our proposed method will not be based on specific features used for emotional representation, so the proposed solution can be applied to a different kind of data also.
