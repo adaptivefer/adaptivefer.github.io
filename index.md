@@ -14,6 +14,7 @@ on their personality traits. The expressions of an introvert
 would be different from that of an extrovert when subjected
 to the same stimuli, and having same emotional changes.
 > In this problem, our main focus is the facial expression recognition, as the reaction to a stimulus is first observed through face. 
+>
 As cultural factors influence the display of
 emotions, and we are dealing with the Indo-Pak ethnicity,we show how an ethnicity-specific classifier is built using
 the target domain data that is unlabeled. The assumptions
