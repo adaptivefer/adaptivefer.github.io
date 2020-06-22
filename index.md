@@ -13,8 +13,9 @@ the commonly observed emotions such as *happiness*, *fear*,
 on their personality traits. The expressions of an introvert
 would be different from that of an extrovert when subjected
 to the same stimuli, and having same emotional changes.
+
 > In this problem, our main focus is the facial expression recognition, as the reaction to a stimulus is first observed through face. 
->
+
 As cultural factors influence the display of
 emotions, and we are dealing with the Indo-Pak ethnicity,we show how an ethnicity-specific classifier is built using
 the target domain data that is unlabeled. The assumptions
@@ -77,7 +78,7 @@ from the target domain.
 
 We have source domain and target domain for source domain we used publicly available FER-2013 and CK+ datasets and for target domcin we collected dataset of 3K+ images. The sample images were resized to 224x224, as required by implemented model for training purposes.
 
-<--IMAGE-->
+
 
 # Implimentation
 
