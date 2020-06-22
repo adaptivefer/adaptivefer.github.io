@@ -78,7 +78,7 @@ from the target domain.
 
 We have source domain and target domain for source domain we used publicly available FER-2013 and CK+ datasets and for target domcin we collected dataset of 3K+ images. The sample images were resized to 224x224, as required by implemented model for training purposes.
 
-
+![Branching](https://github.com/adaptivefer/adaptivefer.github.io/blob/master/assets/images/download%20(1).png)
 
 # Implimentation
 
