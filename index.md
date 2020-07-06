@@ -218,6 +218,8 @@ things are also dealt carefully, then we can achieve way better results than rep
 
 # Contributers
 
-| Jawad Tariq | Muhammad Sohaib Khalid | Asif Ejaz | Amna Shahbaz | Muhammad Taimur Adil | 
-| :--: | :--: | :--: | :--: | :--: |
-|MSDS19038@itu.edu.pk|MSDS19096@itu.edu.pk|MSDS19010@itu.edu.pk|MSDS19060@ity.edu.pk|MSDS19040@itu.edu.pk|
+- Jawad Tariq [MSDS19038@itu.edu.pk]
+- Muhammad Sohaib Khalid [MSDS19096@itu.edu.pk]
+- Asif Ejaz [MSDS19010@itu.edu.pk]
+- Amna Shahbaz [MSDS19060@ity.edu.pk]
+- Muhammad Taimur Adil [MSDS19040@itu.edu.pk]
