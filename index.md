@@ -191,8 +191,7 @@ given in fig 4. We trained 7 different CycleGAN for each
 emotion class so that CycleGAN don’t mess up the emotion
 of the source image while translation. It took us 2 weeks to
 train these 7 CycleGAN and translate image through them.
-Some of the input and translated images are shown in Fig
-4. As we can see that CycleGAN mostly tries to adapt color
+Some of the input and translated images are shown in Fig 4. As we can see that CycleGAN mostly tries to adapt color
 features from target domain to source domain input. In order to get better results from CycleGAN, it can be trained
 more so that it can capture more feature information from
 target domain and map them to source domain input images.
@@ -204,8 +203,7 @@ domain information. Table 6 are the results for both classifiers on source and b
 For better understanding of performance of different approaches, confusion matrices for each experiment can be
 found in figures section. In fig 5, confusion matrices for baseline results for each classifier on both target dataset
 can be found. In fig 6, confusion matrices for classifiers
-fine-tuned on target dataset directly can be found. In fig
-7, confusion matrices for classifiers fine-tuned on CycleGAN translated samples can be found. In fig 8, confusion
+fine-tuned on target dataset directly can be found. In fig 7, confusion matrices for classifiers fine-tuned on CycleGAN translated samples can be found. In fig 8, confusion
 matrices for classifiers trained using feature space domain
 adaptation approach can be found.
 
