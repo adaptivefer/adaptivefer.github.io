@@ -1,3 +1,5 @@
+# Abstract
+
 # Introduction
 
 The way in which human beings express their emotions
@@ -58,6 +60,12 @@ facial expression datasets have demonstrated that the proposed IF-GAN outperform
 achieves comparable or better performance compared with
 the state-of-the-art methods for facial expression recognition.
 
+# Dataset
+
+We have source domain and target domain for source domain we used publicly available FER-2013 and CK+ datasets and for target domcin we collected dataset of 3K+ images. The sample images were resized to 224x224, as required by implemented model for training purposes.
+
+![Branching](https://raw.githubusercontent.com/adaptivefer/adaptivefer.github.io/master/assets/images/download%20(1).png)
+
 # Base Papers
 
 Three base papers were concerned before finalizing the
@@ -74,13 +82,7 @@ pixel space from one domain to the other. Their GAN-based
 method adapts source-domain images to appear as if drawn
 from the target domain.
 
-# Dataset
-
-We have source domain and target domain for source domain we used publicly available FER-2013 and CK+ datasets and for target domcin we collected dataset of 3K+ images. The sample images were resized to 224x224, as required by implemented model for training purposes.
-
-![Branching](https://raw.githubusercontent.com/adaptivefer/adaptivefer.github.io/master/assets/images/download%20(1).png)
-
-# Implimentation
+# Implementation
 
 We are using Input Space Domain Adaptation to address our problem. In our experiments we generated target
 domain like samples from CycleGAN and fine-tuned our
@@ -88,7 +90,7 @@ model on it and source data. We used two classifeirs, VGG16 and ResNET18, for th
 than what was expected. We are working on an unsupervised technique for domain adaptation as proposed in [4].
 The WGAN used in it is not yet producing promising results so we didn’t include its results in the report.
 
-# Results
+# Experiments and Results
 
 Then we used CycleGAN to generate Target Domain like
 samples from source dataset. After this, we fine tuned our
