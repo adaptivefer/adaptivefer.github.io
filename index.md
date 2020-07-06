@@ -178,6 +178,7 @@ The next series of experiments are for second approach
 | Training Epochs | 10K | 1K | 7.5K |
 | Training Time | 7 Days | 3 Days | 7 Days | 
 
+
 The results for some of the CycleGAN translated images are
 given in fig 4. We trained 7 different CycleGAN for each
 emotion class so that CycleGAN don’t mess up the emotion
@@ -211,10 +212,6 @@ things are also dealt carefully, then we can achieve way better results than rep
 
 # References
 
-[1] et al Bousmalis, Konstantinos. Unsupervised pixel-level domain adaptation with generative adversarial networks, 2017.
-Proceedings of the IEEE conference on computer vision and
-pattern recognition.
-[2] et al Ganin, Yaroslav. Domain-adversarial training of neural
-networks, 2016. The Journal of Machine Learning Research
-17.1 (2016): 2096-2030.
-[3] Xiangjun Wang Wang, Xiaoqing and Yubo Ni. Unsupervised domain adaptation for facial expression recognition using generative adversarial networks, 2018. Computational intelligence and neuroscience.
+1. et al Bousmalis, Konstantinos. Unsupervised pixel-level domain adaptation with generative adversarial networks, 2017. Proceedings of the IEEE conference on computer vision and pattern recognition.
+2. et al Ganin, Yaroslav. Domain-adversarial training of neural networks, 2016. The Journal of Machine Learning Research 17.1 (2016): 2096-2030.
+3. Xiangjun Wang Wang, Xiaoqing and Yubo Ni. Unsupervised domain adaptation for facial expression recognition using generative adversarial networks, 2018. Computational intelligence and neuroscience.
