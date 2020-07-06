@@ -211,8 +211,20 @@ adaptation approach can be found.
 
 # Conclusion
 
-We are using Input Space Domain Adaptation to address our problem. In our experiments we generated target
-domain like samples from CycleGAN and fine-tuned our
-model on it and source data. We used two classifeirs, VGG16 and ResNET18, for this purpose. Our accuracy is less
-than what was expected. We are working on an unsupervised technique for domain adaptation as proposed in [4].
-The WGAN used in it is not yet producing promising results so we didn’t include its results in the report.
+By using “Semi-supervised Domain Adaptation using
+CycleGAN”, we are able to produce better results than baseline results. For “feature Space unsupervised domain adaptation”, the accuracy got better for one target dataset and
+got a little worse for other dataset. CycleGAN based approach can make a significant change in results if we train
+CycleGANs more. Same goes for Feature space based approach. There was an imbalance of classes in source dataset
+and target datasets which limited the performance of the approaches used. Along this, there several age groups present
+in source dataset as compared to target dataset. If these
+things are also dealt carefully, then we can achieve way better results than reported.
+
+# References
+
+[1] et al Bousmalis, Konstantinos. Unsupervised pixel-level domain adaptation with generative adversarial networks, 2017.
+Proceedings of the IEEE conference on computer vision and
+pattern recognition.
+[2] et al Ganin, Yaroslav. Domain-adversarial training of neural
+networks, 2016. The Journal of Machine Learning Research
+17.1 (2016): 2096-2030.
+[3] Xiangjun Wang Wang, Xiaoqing and Yubo Ni. Unsupervised domain adaptation for facial expression recognition using generative adversarial networks, 2018. Computational intelligence and neuroscience.
