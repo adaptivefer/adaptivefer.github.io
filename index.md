@@ -64,7 +64,7 @@ the state-of-the-art methods for facial expression recognition.
 
 We have source domain and target domain for source domain we used publicly available FER-2013 and CK+ datasets and for target domcin we collected dataset of 3K+ images. The sample images were resized to 224x224, as required by implemented model for training purposes.
 
-![Branching](https://raw.githubusercontent.com/adaptivefer/adaptivefer.github.io/master/assets/images/download%20(1).png)
+![Branching](https://raw.githubusercontent.com/adaptivefer/adaptivefer.github.io/master/assets/images/Pakistani%20Dataset.jpg)
 
 # Base Papers
 
