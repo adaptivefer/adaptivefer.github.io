@@ -29,7 +29,7 @@ our problem, which resulted in significant improvements.
 
 ## Source Dataset 
 
-RAF_DB contains 12271 colured images of westren facial expressions 
+Real-world Affective Faces Database (RAF_DB) contains 15338 colured images of westren facial expressions, we are using only seven classes although RAF_DB contains more than seven classes and around 30K images.
 
 <img src="https://raw.githubusercontent.com/adaptivefer/adaptivefer.github.io/master/assets/images/Source%20Dataset%20Stat.JPG" alt="Source Dataset">
 
@@ -128,6 +128,30 @@ can be found. In fig 6, confusion matrices for classifiers
 fine-tuned on target dataset directly can be found. In fig 7, confusion matrices for classifiers fine-tuned on CycleGAN translated samples can be found. In fig 8, confusion
 matrices for classifiers trained using feature space domain
 adaptation approach can be found.
+
+## Baseline Results
+
+Confusion Matrices for baseline results. (a) VGG16 results on Target Dataset 1, (b) VGG16 results on Target Dataset 2, (c) ResNET18 results on Target Dataset 1, (d) ResNET18 results on Target Dataset 2
+
+<img src="https://raw.githubusercontent.com/adaptivefer/adaptivefer.github.io/master/assets/images/Confusion%20Matrices%20for%20baseline%20results.JPG" alt="Results">
+
+## Fine-tuned on Target Dataset
+
+Classifiers fine-tuned on target dataset directly. (a) VGG16 results on Target Dataset 1, (b) VGG16 results on Target Dataset 2, (c) ResNET18 results on Target Dataset 1, (d) ResNET18 results on Target Dataset 2
+
+<img src="https://raw.githubusercontent.com/adaptivefer/adaptivefer.github.io/master/assets/images/Classifiers%20fine-tuned%20on%20target%20dataset%20directly.JPG" alt="Results">
+
+## Fine-tuned on CycleGAN Translated Samples
+
+Classifiers fine-tuned on CycleGAN translated samples. (a) VGG16 results on Target Dataset 1, (b) VGG16 results on Target Dataset 2, (c) ResNET18 results on Target Dataset 1, (d) ResNET18 results on Target Dataset 2
+
+<img src="https://raw.githubusercontent.com/adaptivefer/adaptivefer.github.io/master/assets/images/Classifiers%20fine-tuned%20on%20CycleGAN%20translated%20samples.JPG" alt="Results">
+
+## Trained using Feature Space Domain Adaptation
+
+Classifiers trained using feature space domain adaptation approach. (a) VGG16 results on Target Dataset 1, (b) VGG16 results on Target Dataset 2t, (c) ResNET18 results on Target Dataset 1, (d) ResNET18 results on Target Dataset 2
+
+<img src="https://raw.githubusercontent.com/adaptivefer/adaptivefer.github.io/master/assets/images/Classifiers%20trained%20using%20feature%20space%20domain%20adaptation%20approach.JPG" alt="Results">
 
 # Conclusion
 
