@@ -1,5 +1,5 @@
-title: Domain Adaptation
-description:  Emotion Detection from Face Expressions
+title: Domain Adaptation for FER
+description: Western to Pakistani Face Emotion Detection
 show_downloads: false
 google_analytics:
 theme: jekyll-theme-architect
