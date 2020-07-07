@@ -121,23 +121,23 @@ Classifiers trained using feature space domain adaptation approach. (a) VGG16 re
 
 <table style="width:100%; border-collapse: collapse; border: 0px;">
   <tr style="width:100%; border-collapse: collapse; border: 0px;">
-    <th style="width:100%; border-collapse: collapse; border: 0px;"><img src="https://raw.githubusercontent.com/adaptivefer/adaptivefer.github.io/master/assets/images/img_avatar.png" alt="Avatar" style="vertical-align: middle;  width: 50px;  height: 50px;  border-radius: 50%;">
+    <td style="width:100%; border-collapse: collapse; border: 0px;text-align: left;"><img src="https://raw.githubusercontent.com/adaptivefer/adaptivefer.github.io/master/assets/images/img_avatar.png" alt="Avatar" style="vertical-align: middle;  width: 50px;  height: 50px;  border-radius: 50%;">
 Jawad Tariq
 <a href="mailto:msds19038@itu.edu.pk">MSDS19038@itu.edu.pk</a></th>
-    <th style="width:100%; border-collapse: collapse; border: 0px;"><img src="https://raw.githubusercontent.com/adaptivefer/adaptivefer.github.io/master/assets/images/img_avatar.png" alt="Avatar" style="vertical-align: middle;  width: 50px;  height: 50px;  border-radius: 50%;">
+    <th style="width:100%; border-collapse: collapse; border: 0px;text-align: left;"><img src="https://raw.githubusercontent.com/adaptivefer/adaptivefer.github.io/master/assets/images/img_avatar.png" alt="Avatar" style="vertical-align: middle;  width: 50px;  height: 50px;  border-radius: 50%;">
 Muhammad Sohaib Khalid
 <a href="mailto:msds19096@itu.edu.pk">MSDS19096@itu.edu.pk</a></th> 
   </tr>
   <tr style="width:100%; border-collapse: collapse; border: 0px;">
-    <td style="width:100%; border-collapse: collapse; border: 0px;"><img src="https://raw.githubusercontent.com/adaptivefer/adaptivefer.github.io/master/assets/images/img_avatar2.png" alt="Avatar" style="vertical-align: middle;  width: 50px;  height: 50px;  border-radius: 50%;">
+    <td style="width:100%; border-collapse: collapse; border: 0px;text-align: left;"><img src="https://raw.githubusercontent.com/adaptivefer/adaptivefer.github.io/master/assets/images/img_avatar2.png" alt="Avatar" style="vertical-align: middle;  width: 50px;  height: 50px;  border-radius: 50%;">
 Amna Shahbaz
 <a href="mailto:msds19060@ity.edu.pk">MSDS19060@ity.edu.pk</a></td>
-    <td style="width:100%; border-collapse: collapse; border: 0px;"><img src="https://raw.githubusercontent.com/adaptivefer/adaptivefer.github.io/master/assets/images/img_avatar.png" alt="Avatar" style="vertical-align: middle;  width: 50px;  height: 50px;  border-radius: 50%;">
+    <td style="width:100%; border-collapse: collapse; border: 0px;text-align: left;"><img src="https://raw.githubusercontent.com/adaptivefer/adaptivefer.github.io/master/assets/images/img_avatar.png" alt="Avatar" style="vertical-align: middle;  width: 50px;  height: 50px;  border-radius: 50%;">
 Asif Ejaz
 <a href="mailto:msds19010@itu.edu.pk">MSDS19010@itu.edu.pk</a></td>
   </tr>
   <tr style="width:100%; border-collapse: collapse; border: 0px;">
-    <td style="width:100%; border-collapse: collapse; border: 0px;"><img src="https://raw.githubusercontent.com/adaptivefer/adaptivefer.github.io/master/assets/images/img_avatar.png" alt="Avatar" style="vertical-align: middle;  width: 50px;  height: 50px;  border-radius: 50%;">
+    <td style="width:100%; border-collapse: collapse; border: 0px;text-align: left;"><img src="https://raw.githubusercontent.com/adaptivefer/adaptivefer.github.io/master/assets/images/img_avatar.png" alt="Avatar" style="vertical-align: middle;  width: 50px;  height: 50px;  border-radius: 50%;">
 Muhammad Taimur Adil
 <a href="mailto:msds19040@itu.edu.pk">MSDS19040@itu.edu.pk</a>
 </td>
