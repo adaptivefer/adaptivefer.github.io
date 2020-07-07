@@ -86,12 +86,13 @@ We used three different approaches for domain adaptation purpose.
 
 Using CycleGAN translated images, we fine-tuned our classifiers and accuracy score on both target datasets are below.
 | Classifier | Target Dataset 1 Accuracy (Used in Fine-tuning) | Target Dataset 2 Accuracy (Unseen) |
+| :--: | :--: | :--: |
 | VGG16 | 50.92 | 37.51 |
 | ResNET18 | 50.75 | 33.51 |
 
 Feature Space Unsupervised Domain Adaptation. We retrained both the classifier with an additional domain classifier network in them. This domain classifier network help in making the features used in classifier independent of any domain information.
 | Classifier | Target Dataset 1 Accuracy (Used in Fine-tuning) | Target Dataset 2 Accuracy (Unseen) |
-| ---- | ---- | ---- |
+| :--: | :--: | :--: |
 | VGG16 | 51.36 | 37.37 |
 | ResNET18 | 46.72 | 32.41 |
 
