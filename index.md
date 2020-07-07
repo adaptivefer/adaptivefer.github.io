@@ -27,7 +27,7 @@ We propose to use Cycle-GAN for the purpose of mapping
 source domain to target domain, and conduct the comparative analysis with results of conventional GAN model. Furthermore, we applied feature-space domain adaptation to
 our problem, which resulted in significant improvements.
 
-![System Diagram](https://raw.githubusercontent.com/adaptivefer/adaptivefer.github.io/master/assets/images/SystemDiagram.jpg"Adaptive FER System Diagram")
+![System Diagram](https://raw.githubusercontent.com/adaptivefer/adaptivefer.github.io/master/assets/images/SystemDiagram.jpg =850x550)
 
 # Related Work
 
