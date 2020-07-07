@@ -97,12 +97,6 @@ Classifiers fine-tuned on target dataset directly. (a) VGG16 results on Target D
 
 <img src="https://raw.githubusercontent.com/adaptivefer/adaptivefer.github.io/master/assets/images/Classifiers%20fine-tuned%20on%20target%20dataset%20directly.JPG" alt="Results">
 
-## Fine-tuned on CycleGAN Translated Samples
-
-Classifiers fine-tuned on CycleGAN translated samples. (a) VGG16 results on Target Dataset 1, (b) VGG16 results on Target Dataset 2, (c) ResNET18 results on Target Dataset 1, (d) ResNET18 results on Target Dataset 2
-
-<img src="https://raw.githubusercontent.com/adaptivefer/adaptivefer.github.io/master/assets/images/Classifiers%20fine-tuned%20on%20CycleGAN%20translated%20samples.JPG" alt="Results">
-
 ## Trained using Feature Space Domain Adaptation
 
 Classifiers trained using feature space domain adaptation approach. (a) VGG16 results on Target Dataset 1, (b) VGG16 results on Target Dataset 2t, (c) ResNET18 results on Target Dataset 1, (d) ResNET18 results on Target Dataset 2
