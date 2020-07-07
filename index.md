@@ -25,88 +25,19 @@ our problem, which resulted in significant improvements.
 
 <img src="https://raw.githubusercontent.com/adaptivefer/adaptivefer.github.io/master/assets/images/SystemDiagram.jpg" alt="System Diagram" width="850" height="550">
 
-# Related Work
-
-There were two commonly used techniques in the observed literature to achieve the similar results related to
-the problem being addressed. First is a state-of-the-art approach based on a frame-level technique, which is the facial
-expression analysis using single frame. For this approach,
-the pre-requisite is to perform image registration on facial
-images, and then drawing out the representative features of
-the image i.e. geometrical features. These extracted features are then given as an input to the classifier. This method
-is observed to show good results concerning frontal images,
-but it failed to capture the diversity of emotions.
-Second most commonly seen approach is of domain
-adaptation, along with other transfer learning techniques which depend on the type of information. These techniques
-include feature and parameter transfer. Former technique
-deals with the shared feature space representing both target
-domain and source domain, whereas the latter deals with
-finding the shared parameters between both domains.
-In cases where the data representing the target domain is
-unlabeled, instance-based domain adaptation techniques are
-used. This is made possible through the observation of target domain’s distribution. Using the information extracted
-from the distribution, certain weight is assigned to the samples of source domain while training, and certain samples
-are estimated.
-In [4], an Identity-free conditional Generative Adversarial Network was proposed, known as IF-GAN. It was introduced for the purpose of reducing variations among the
-subjects for recognition of facial expression. A neutral face
-can be transformed to an expressive one using conditional generation, for a given input image. The neutral face subjected to transformation here takes the average expression
-of the images the model trained on.
-[5] uses Cycle-GAN for image to image translation when
-there are no given paired samples for training. A mapping is
-learned from source domain to target domain, such that the
-distribution of the images being mapped could not be distinguished from that of target domain. This approach uses
-the concept of pix2pix framework [6] by Isola et al. which
-learns the mapping from input to output image using conditional GAN. Conditional GANs also learn the loss function
-for the purpose of training the specific mapping.
-In an approach suggested by Leon A. Gatys et al. [7],
-neutral style transfer is using for the purpose of image translation which produces a new image by combining the style
-of one image by the contents of another.
-Our approach does not solely rely on learning the map ping between two specific images but between the two
-domains, and the constraint of being given paired images will not restrict us in learning. Three base papers
-were concerned before finalizing the approach proposed
-by us. [3] introduces an unsupervised domain adaptation
-method, which is especially suitable for unlabeled small target dataset. They train a GAN on the target dataset and
-use the GAN generated samples to fine-tune the model pretrained on the source dataset, whereas [2] proposes an domain adaptation approach that promotes the emergence of
-features that are (i) discriminative for the main learning task
-on the source domain and (ii) indiscriminate with respect
-to the shift between the domains. On the other hand, in
-[1] the authors present an approach that learns, in an unsupervised manner, a transformation in the pixel space from
-one domain to the other. Their GAN-based method adapts
-source-domain images to appear as if drawn from the target
-domain.
-
-
 # Dataset
 
-We used RAF DB dataset as source dataset in experimentation. There are other datasets available on internet
-for public use like FER-2013, CK+ etc. but almost all of
-them have grayscale images. Our goal was adapting classifier trained on one domain to another. RAF DB dataset
-has both grayscale and colored Western Face expression images. Target domain is of Pakistani faces and in-order to
-properly adopt classifier trained on Western faces to Pakistani faces, color information was one of the key feature.
-There are 12271 images in source training dataset and 3067
-images in source testing dataset. The percentage count of
-samples in each emotion class in RAF-DB training set and
-testing set is given in fig 1(a) and fig 1(b) respectively.
-One of the major challenge faced while working on this
-problem was unavailability of any public Pakistani facial
-expressions dataset. We collected Pakistan facial expression
-dataset on our own. We were able to collect in total 4.2k+
-images with different facial expressions from different internet sources. These images were further divided into two
-datasets for use different use in experimentation. The data
-was fractionated into seven classes, having high expression
-variability. Noise removal was ensured by using frontal images with clarity of expressions, and discarding any sample
-which could affect the model’s performance in a negative
-manner. The sample images were also resized to 224x224,
-as required by implemented model for training purposes.
-The percentage count of samples for each emotion in Target
-dataset 1 is provided in fig 1(c). The percentage count of
-samples for each emotion in Target dataset 2 is provided in
-fig 1(d).
-It can be seen in fig 1 that there exists a great imbalance of classes in source and target dataset. This will affect our results significantly. In this project, we didn’t deal with this class imbalance as it was not our goal. But this
-can be done to improve accuracy for domain adaptation approaches used. Apart from this, there is one another thing
-that made domain adaptation task difficult for us. It is the
-presence of different groups present in source dataset while
-they are just some particular age group present in target
-dataset.
+## Source Dataset 
+
+RAF_DB contains 12271 colured images of westren facial expressions 
+
+<img src="https://raw.githubusercontent.com/adaptivefer/adaptivefer.github.io/master/assets/images/Source%20Dataset%20Stat.JPG" alt="Source Dataset">
+
+## Target Dataset
+
+We have collected around 4000 colured Pakistani facial expression images
+
+<img src="https://raw.githubusercontent.com/adaptivefer/adaptivefer.github.io/master/assets/images/Target%20Dataset.JPG" alt="Target Dataset">
 
 # Experiments and Results
 
