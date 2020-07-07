@@ -50,7 +50,7 @@ is VGG16 pre-trained on ImageNet Dataset and second is
 ResNET18 pre-trained on ImageNet Dataset. These classifiers were trained on source domain and their accuracies on
 source domain are below.
 
-| Classifier | Source Domain Training Accuracy | Source Domain Testing Accuracy |
+| *Classifier | *Source Domain Training Accuracy* | *Source Domain Testing Accuracy* |
 | :--: | :--: | :--: |
 | VGG16 | 94.8 | 79.45 |
 | ResNET18 | 92.3 | 80.17 |
@@ -60,7 +60,7 @@ In our experimentation, we first evaluated our classifiers
 any kind of domain adaptation. The baseline results for the
 classifiers used are provided in following table
 
-| Classifier | Target Dataset 1 Accuracy (Unseen) | Target Dataset 2 Accuracy (Unseen) |
+| *Classifier* | *Target Dataset 1 Accuracy (Unseen)* | *Target Dataset 2 Accuracy (Unseen)* |
 | :--: | :--: | :--: |
 | VGG16 | 52.00 | 37.51 |
 | ResNET18 | 50.75 | 33.51 |
@@ -68,7 +68,7 @@ classifiers used are provided in following table
 Then in our next experiment, we fine-tuned our classifiers directly on target domain to get an upper bound of
 accuracies on target domain for each classifier. These accuracies are given below
 
-| Classifier | Target Dataset 1 Accuracy (Used in Fine-tuning) | Target Dataset 2 Accuracy (Unseen) |
+| *Classifier* | *Target Dataset 1 Accuracy (Used in Fine-tuning)* | *Target Dataset 2 Accuracy (Unseen)* |
 | :--: | :--: | :--: |
 | VGG16 | 92.23 | 42.75 |
 | ResNET18 | 96.47 | 43.03 |
@@ -78,7 +78,7 @@ We used three different approaches for domain adaptation purpose.
 2. Semi-supervised Domain Adaptation using CycleGAN.
 3. Feature Space Unsupervised Domain Adaptation.
 
-| Specifications | WGAN Arch. 1 | WGAN Arch. 2 | WGAN Arch. 3 | 
+| *Specifications* | *WGAN Arch. 1* | *WGAN Arch. 2* | *WGAN Arch. 3* | 
 | :--: | :--: | :--: | :--: |
 | Model Type | Linear | Linear | Convolutional |
 | Training Epochs | 10K | 1K | 7.5K |
@@ -86,14 +86,14 @@ We used three different approaches for domain adaptation purpose.
 
 Using CycleGAN translated images, we fine-tuned our classifiers and accuracy score on both target datasets are below.
 
-| Classifier | Target Dataset 1 Accuracy (Used in Fine-tuning) | Target Dataset 2 Accuracy (Unseen) |
+| *Classifier* | *Target Dataset 1 Accuracy (Used in Fine-tuning)* | *Target Dataset 2 Accuracy (Unseen)* |
 | :--: | :--: | :--: |
 | VGG16 | 50.92 | 37.51 |
 | ResNET18 | 50.75 | 33.51 |
 
 Feature Space Unsupervised Domain Adaptation. We retrained both the classifier with an additional domain classifier network in them. This domain classifier network help in making the features used in classifier independent of any domain information.
 
-| Classifier | Target Dataset 1 Accuracy (Used in Fine-tuning) | Target Dataset 2 Accuracy (Unseen) |
+| *Classifier* | *Target Dataset 1 Accuracy (Used in Fine-tuning)* | *Target Dataset 2 Accuracy (Unseen)* |
 | :--: | :--: | :--: |
 | VGG16 | 51.36 | 37.37 |
 | ResNET18 | 46.72 | 32.41 |
