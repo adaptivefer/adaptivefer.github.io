@@ -117,12 +117,6 @@ Classifiers trained using feature space domain adaptation approach. (a) VGG16 re
 
 <img src="https://raw.githubusercontent.com/adaptivefer/adaptivefer.github.io/master/assets/images/Classifiers%20trained%20using%20feature%20space%20domain%20adaptation%20approach.JPG" alt="Results" style="display: block;  margin-left: auto;  margin-right: auto;">
 
-# References
-
-1. et al Bousmalis, Konstantinos. Unsupervised pixel-level domain adaptation with generative adversarial networks, 2017. Proceedings of the IEEE conference on computer vision and pattern recognition.
-2. et al Ganin, Yaroslav. Domain-adversarial training of neural networks, 2016. The Journal of Machine Learning Research 17.1 (2016): 2096-2030.
-3. Xiangjun Wang Wang, Xiaoqing and Yubo Ni. Unsupervised domain adaptation for facial expression recognition using generative adversarial networks, 2018. Computational intelligence and neuroscience.
-
 # Contributers
 
 - Jawad Tariq [MSDS19038@itu.edu.pk]
