@@ -85,6 +85,17 @@ Approach based on the [3].
 | Training Epochs | 10K | 1K | 7.5K |
 | Training Time | 7 Days | 3 Days | 7 Days | 
 
+Using CycleGAN translated images, we fine-tuned our classifiers and accuracy score on both target datasets are below.
+| Classifier | Target Dataset 1 Accuracy (Used in Fine-tuning) | Target Dataset 2 Accuracy (Unseen) |
+| VGG16 | 50.92 | 37.51 |
+| ResNET18 | 50.75 | 33.51 |
+
+Feature Space Unsupervised Domain Adaptation. We retrained both the classifier with an additional domain classifier network in them. This domain classifier network help in making the features used in classifier independent of any domain information.
+| Classifier | Target Dataset 1 Accuracy (Used in Fine-tuning) | Target Dataset 2 Accuracy (Unseen) |
+| VGG16 | 51.36 | 37.37 |
+| ResNET18 | 46.72 | 32.41 |
+
+
 ## Baseline Results
 
 Confusion Matrices for baseline results. (a) VGG16 results on Target Dataset 1, (b) VGG16 results on Target Dataset 2, (c) ResNET18 results on Target Dataset 1, (d) ResNET18 results on Target Dataset 2
