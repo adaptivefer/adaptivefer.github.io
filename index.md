@@ -29,6 +29,8 @@ our problem, which resulted in significant improvements.
 
 ![System Diagram](https://raw.githubusercontent.com/adaptivefer/adaptivefer.github.io/master/assets/images/SystemDiagram.jpg =850x550)
 
+<img src="https://raw.githubusercontent.com/adaptivefer/adaptivefer.github.io/master/assets/images/SystemDiagram.jpg" alt="System Diagram" width="850" height="550">
+
 # Related Work
 
 There were two commonly used techniques in the observed literature to achieve the similar results related to
