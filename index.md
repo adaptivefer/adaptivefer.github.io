@@ -92,6 +92,7 @@ Using CycleGAN translated images, we fine-tuned our classifiers and accuracy sco
 
 Feature Space Unsupervised Domain Adaptation. We retrained both the classifier with an additional domain classifier network in them. This domain classifier network help in making the features used in classifier independent of any domain information.
 | Classifier | Target Dataset 1 Accuracy (Used in Fine-tuning) | Target Dataset 2 Accuracy (Unseen) |
+| ---- | ---- | ---- |
 | VGG16 | 51.36 | 37.37 |
 | ResNET18 | 46.72 | 32.41 |
 
