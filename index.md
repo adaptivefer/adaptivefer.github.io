@@ -74,10 +74,9 @@ accuracies on target domain for each classifier. These accuracies are given belo
 | ResNET18 | 96.47 | 43.03 |
 
 We used three different approaches for domain adaptation purpose.
-1. Unsupervised Domain Adaptation using WGAN — WGAN results were not useable. So this approach was discontinued. This approach was presented in [1].
-2. Semi-supervised Domain Adaptation using CycleGAN — Approach based on the [2].
-3. Feature Space Unsupervised Domain Adaptation —
-Approach based on the [3].
+1. Unsupervised Domain Adaptation using WGAN — WGAN results were not useable. So this approach was discontinued.
+2. Semi-supervised Domain Adaptation using CycleGAN.
+3. Feature Space Unsupervised Domain Adaptation.
 
 | Specifications | WGAN Arch. 1 | WGAN Arch. 2 | WGAN Arch. 3 | 
 | :--: | :--: | :--: | :--: |
