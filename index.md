@@ -121,19 +121,19 @@ Classifiers trained using feature space domain adaptation approach. (a) VGG16 re
 
 - <img src="https://raw.githubusercontent.com/adaptivefer/adaptivefer.github.io/master/assets/images/img_avatar.png" alt="Avatar" style="vertical-align: middle;  width: 50px;  height: 50px;  border-radius: 50%;">
 Jawad Tariq &nbsp;&nbsp;
-<a href="mailto:MSDS19038@itu.edu.pk">MSDS19038@itu.edu.pk</a>
+<a href="mailto:msds19038@itu.edu.pk">MSDS19038@itu.edu.pk</a>
 - <img src="https://raw.githubusercontent.com/adaptivefer/adaptivefer.github.io/master/assets/images/img_avatar.png" alt="Avatar" style="vertical-align: middle;  width: 50px;  height: 50px;  border-radius: 50%;">
 Muhammad Sohaib Khalid &nbsp;&nbsp;
-<a href="mailto:MSDS19096@itu.edu.pk">MSDS19096@itu.edu.pk</a>
+<a href="mailto:msds19096@itu.edu.pk">MSDS19096@itu.edu.pk</a>
 <br/>
 - <img src="https://raw.githubusercontent.com/adaptivefer/adaptivefer.github.io/master/assets/images/img_avatar2.png" alt="Avatar" style="vertical-align: middle;  width: 50px;  height: 50px;  border-radius: 50%;">
 Amna Shahbaz &nbsp;&nbsp;
-<a href="mailto:MSDS19060@ity.edu.pk">MSDS19060@ity.edu.pk</a>
+<a href="mailto:msds19060@ity.edu.pk">MSDS19060@ity.edu.pk</a>
 - <img src="https://raw.githubusercontent.com/adaptivefer/adaptivefer.github.io/master/assets/images/img_avatar.png" alt="Avatar" style="vertical-align: middle;  width: 50px;  height: 50px;  border-radius: 50%;">
 Asif Ejaz &nbsp;&nbsp;
-<a href="mailto:MSDS19010@itu.edu.pk">MSDS19010@itu.edu.pk</a>
+<a href="mailto:msds19010@itu.edu.pk">MSDS19010@itu.edu.pk</a>
 <br/>
 - <img src="https://raw.githubusercontent.com/adaptivefer/adaptivefer.github.io/master/assets/images/img_avatar.png" alt="Avatar" style="vertical-align: middle;  width: 50px;  height: 50px;  border-radius: 50%;">
 Muhammad Taimur Adil &nbsp;&nbsp;
-<a href="mailto:MSDS19040@itu.edu.pk">MSDS19040@itu.edu.pk</a>
+<a href="mailto:msds19040@itu.edu.pk">MSDS19040@itu.edu.pk</a>
 <br/>
