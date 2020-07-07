@@ -126,12 +126,22 @@ Classifiers trained using feature space domain adaptation approach. (a) VGG16 re
 - Muhammad Taimur Adil [MSDS19040@itu.edu.pk]
 
 <img src="https://raw.githubusercontent.com/adaptivefer/adaptivefer.github.io/master/assets/images/img_avatar.png" alt="Avatar" style="vertical-align: middle;  width: 50px;  height: 50px;  border-radius: 50%;">
-Muhammad Taimur Adil
+Jawad Tariq
+<a href="mailto:MSDS19038@itu.edu.pk">MSDS19038@itu.edu.pk</a>
+<br/>
 <img src="https://raw.githubusercontent.com/adaptivefer/adaptivefer.github.io/master/assets/images/img_avatar.png" alt="Avatar" style="vertical-align: middle;  width: 50px;  height: 50px;  border-radius: 50%;">
-Muhammad Taimur Adil
+Muhammad Sohaib Khalid
+<a href="mailto:MSDS19096@itu.edu.pk">MSDS19096@itu.edu.pk</a>
+<br/>
 <img src="https://raw.githubusercontent.com/adaptivefer/adaptivefer.github.io/master/assets/images/img_avatar2.png" alt="Avatar" style="vertical-align: middle;  width: 50px;  height: 50px;  border-radius: 50%;">
-Muhamamd Taimur Adil
+Amna Shahbaz
+<a href="mailto:MSDS19060@ity.edu.pk">MSDS19060@ity.edu.pk</a>
+<br/>
+<img src="https://raw.githubusercontent.com/adaptivefer/adaptivefer.github.io/master/assets/images/img_avatar.png" alt="Avatar" style="vertical-align: middle;  width: 50px;  height: 50px;  border-radius: 50%;">
+Asif Ejaz
+<a href="mailto:MSDS19010@itu.edu.pk">MSDS19010@itu.edu.pk</a>
+<br/>
 <img src="https://raw.githubusercontent.com/adaptivefer/adaptivefer.github.io/master/assets/images/img_avatar.png" alt="Avatar" style="vertical-align: middle;  width: 50px;  height: 50px;  border-radius: 50%;">
 Muhammad Taimur Adil
-<img src="https://raw.githubusercontent.com/adaptivefer/adaptivefer.github.io/master/assets/images/img_avatar.png" alt="Avatar" style="vertical-align: middle;  width: 50px;  height: 50px;  border-radius: 50%;">
-Muhammad Taimur Adil
+<a href="mailto:MSDS19040@itu.edu.pk">MSDS19040@itu.edu.pk</a>
+<br/>
