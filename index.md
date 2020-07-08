@@ -27,7 +27,7 @@ our problem, which resulted in significant improvements.
 
 # Dataset
 
-Used RAF_DB and Self collected Pakistani facial images 
+Used RAF_DB as sourced dataset and Self collected Pakistani facial images as target dataset
 
 <figure class="image"><img src="https://raw.githubusercontent.com/adaptivefer/adaptivefer.github.io/master/assets/images/RAF_Pak.jpg" alt="System Diagram" style="display: block;  margin-left: auto;  margin-right: auto;"><figcaption></figcaption></figure>
 
