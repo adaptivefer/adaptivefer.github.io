@@ -53,7 +53,9 @@ is VGG16 pre-trained on ImageNet Dataset and second is
 ResNET18 pre-trained on ImageNet Dataset. These classifiers were trained on source domain and their accuracies on
 source domain are below.
 
-### Source dataset accuracy results
+## WGAN
+
+### Architecture-1 : Source dataset accuracy results
 
 <table class="table table-bordered">
   <thead class="thead-dark">
@@ -82,39 +84,154 @@ In our experimentation, we first evaluated our classifiers
 any kind of domain adaptation. The baseline results for the
 classifiers used are provided in following table
 
-| **Classifier** | **Target Dataset 1 Accuracy (Unseen)** | **Target Dataset 2 Accuracy (Unseen)** |
-| :--: | :--: | :--: |
-| VGG16 | 50.92 | 37.51 |
-| ResNET18 | 50.75 | 33.51 |
+### Architecture-2 : Baseline results
+
+we first evaluated our classifiers (VGG16 and ResNET18) on target domain without doing any kind of domain adaptation.
+
+<table class="table table-bordered">
+  <thead class="thead-dark">
+    <tr>
+      <th scope="col">Classifier</th>
+      <th scope="col">Target Dataset 1 Accuracy (Unseen)</th>
+      <th scope="col">Target Dataset 2 Accuracy (Unseen)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>VGG16</td>
+      <td>50.92</td>
+      <td>37.51</td>
+    </tr>
+    <tr>
+      <td>ResNET18</td>
+      <td>50.75</td>
+      <td>33.51</td>
+    </tr>
+  </tbody>
+</table>
+
+### Architecture-3 : Direct fine-tuning on Target Dataset Accuracy
 
 Then in our next experiment, we fine-tuned our classifiers directly on target domain to get an upper bound of
-accuracies on target domain for each classifier. These accuracies are given below
-
-| **Classifier** | **Target Dataset 1 Accuracy (Used in Fine-tuning)** | **Target Dataset 2 Accuracy (Unseen)** |
-| :--: | :--: | :--: |
-| VGG16 | 92.23 | 42.75 |
-| ResNET18 | 96.47 | 43.03 |
+accuracies on target domain for each classifier.
 
 
-| **Specifications** | **WGAN Arch. 1** | **WGAN Arch. 2** | **WGAN Arch. 3** | 
-| :--: | :--: | :--: | :--: |
-| Model Type | Linear | Linear | Convolutional |
-| Training Epochs | 10K | 1K | 7.5K |
-| Training Time | 7 Days | 3 Days | 7 Days | 
+<table class="table table-bordered">
+  <thead class="thead-dark">
+    <tr>
+      <th scope="col">Classifier</th>
+      <th scope="col">Target Dataset 1 Accuracy (Used in Fine-tuning)</th>
+      <th scope="col">Target Dataset 2 Accuracy (Unseen)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>VGG16</td>
+      <td>92.23</td>
+      <td>42.75</td>
+    </tr>
+    <tr>
+      <td>ResNET18</td>
+      <td>96.47</td>
+      <td>43.03</td>
+    </tr>
+  </tbody>
+</table>
+
+### WGAN Results
+
+<figure class="image"><img src="https://raw.githubusercontent.com/adaptivefer/adaptivefer.github.io/master/assets/images/WGAN%20Results.jpg" alt="System Diagram"  style="display: block;  margin-left: auto;  margin-right: auto;"><figcaption></figcaption></figure>
+
+### Training Specifications of WGAN Models
+
+<table class="table table-bordered">
+  <thead class="thead-dark">
+    <tr>
+      <th scope="col">Specifications</th>
+      <th scope="col">WGAN Arch. 1</th>
+      <th scope="col">WGAN Arch. 2</th>
+      <th scope="col">WGAN Arch. 3</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Model Type</td>
+      <td>Linear</td>
+      <td>Linear</td>
+      <td>Convolutional</td>
+    </tr>
+    <tr>
+      <td>Training
+Epochs</td>
+      <td>10K</td>
+      <td>1K</td>
+      <td>7.5K</td>
+    </tr>
+    <tr>
+      <td>Training Time </td>
+      <td>7 Days</td>
+      <td>3 Days</td>
+      <td>7 Days</td>
+    </tr>
+  </tbody>
+</table>
+
+## CycleGAN
+
+### Fine Tune CycleGAN
 
 Using CycleGAN translated images, we fine-tuned our classifiers and accuracy score on both target datasets are below.
 
-| **Classifier** | **Target Dataset 1 Accuracy (Used in Fine-tuning)** | **Target Dataset 2 Accuracy (Unseen)** |
-| :--: | :--: | :--: |
-| VGG16 | 50.92 | 37.51 |
-| ResNET18 | 50.75 | 33.51 |
+<table class="table table-bordered">
+  <thead class="thead-dark">
+    <tr>
+      <th scope="col">Classifier</th>
+      <th scope="col">Target Dataset 1
+Accuracy (Used
+in Fine-tuning)
+</th>
+      <th scope="col">Target Dataset 2
+Accuracy (Unseen)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>ResNET18</td>
+      <td>48.13</td>
+      <td>33.42</td>
+    </tr>
+  </tbody>
+</table>
+
 
 Feature Space Unsupervised Domain Adaptation. We retrained both the classifier with an additional domain classifier network in them. This domain classifier network help in making the features used in classifier independent of any domain information.
 
-| **Classifier** | **Target Dataset 1 Accuracy (Used in Fine-tuning)** | **Target Dataset 2 Accuracy (Unseen)** |
-| :--: | :--: | :--: |
-| VGG16 | 51.36 | 37.37 |
-| ResNET18 | 46.72 | 32.41 |
+
+<table class="table table-bordered">
+  <thead class="thead-dark">
+    <tr>
+      <th scope="col">Classifier</th>
+      <th scope="col">Target Dataset 1 Accuracy (Used in Fine-tuning)</th>
+      <th scope="col">Target Dataset 2 Accuracy (Unseen)</th> 
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>VGG16</td>
+      <td>51.36</td>
+      <td>37.37</td>
+    </tr>
+    <tr>
+      <td>ResNET18</td>
+      <td>46.72</td>
+      <td>32.41</td>
+    </tr>
+  </tbody>
+</table>
+
+## CycleGAN Treanslated Results
+
+<figure class="image"><img src="https://raw.githubusercontent.com/adaptivefer/adaptivefer.github.io/master/assets/images/CycleGAN%20translated%20images.jpg" alt="System Diagram"  style="display: block;  margin-left: auto;  margin-right: auto;"><figcaption></figcaption></figure>
 
 
 ## Baseline Results
