@@ -23,10 +23,6 @@ We propose to use Cycle-GAN for the purpose of mapping
 source domain to target domain, and conduct the comparative analysis with results of conventional GAN model. Furthermore, we applied feature-space domain adaptation to
 our problem, which resulted in significant improvements.
 
-<img src="https://raw.githubusercontent.com/adaptivefer/adaptivefer.github.io/master/assets/images/SystemDiagram.jpg" alt="System Diagram" width="850" height="550"  style="display: block;  margin-left: auto;  margin-right: auto;">
-
-`(a) Input Space Domain Adaptation, (b) Feature Space Domain Adaptation (Followed from Domain-Adversarial Training of Neural Networks published in Journal of Machine Learning Research 17 (2016)`
-
 <figure class="image"><img src="https://raw.githubusercontent.com/adaptivefer/adaptivefer.github.io/master/assets/images/SystemDiagram.jpg" alt="System Diagram" width="850" height="550"  style="display: block;  margin-left: auto;  margin-right: auto;"><figcaption>(a) Input Space Domain Adaptation, (b) Feature Space Domain Adaptation (Followed from Domain-Adversarial Training of Neural Networks published in Journal of Machine Learning Research 17 (2016)</figcaption></figure>
 
 # Dataset
@@ -57,10 +53,29 @@ is VGG16 pre-trained on ImageNet Dataset and second is
 ResNET18 pre-trained on ImageNet Dataset. These classifiers were trained on source domain and their accuracies on
 source domain are below.
 
-| **Classifier** | **Source Domain Training Accuracy** | **Source Domain Testing Accuracy** |
-| :--: | :--: | :--: |
-| VGG16 | 94.8 | 79.45 |
-| ResNET18 | 92.3 | 80.17 |
+### Source dataset accuracy results
+
+<table class="table table-bordered">
+  <thead class="thead-dark">
+    <tr>
+      <th scope="col">Classifier</th>
+      <th scope="col">Source Domain Training Accuracy</th>
+      <th scope="col">Source Domain Testing Accuracy</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>VGG16</td>
+      <td>94.8</td>
+      <td>79.45</td>
+    </tr>
+    <tr>
+      <td>ResNET18</td>
+      <td>92.3</td>
+      <td>80.17</td>
+    </tr>
+  </tbody>
+</table>
 
 In our experimentation, we first evaluated our classifiers
 (VGG16 and ResNET18) on target domain without doing
