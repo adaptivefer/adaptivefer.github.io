@@ -233,7 +233,7 @@ Accuracy (Unseen)</th>
 <figure class="image"><img src="https://raw.githubusercontent.com/adaptivefer/adaptivefer.github.io/master/assets/images/CycleGAN%20translated%20images.jpg" alt="System Diagram"  style="display: block;  margin-left: auto;  margin-right: auto;"><figcaption></figcaption></figure>
 
 
-## Fine-tuned on CycleGAN translated samples
+### Fine-tuned on CycleGAN Translated Samples Confusion Matrix
 
 Classifiers fine-tuned on CycleGAN translated samples. (a) ResNET18 results on Target Dataset 1, (b) ResNET18 results on Target Dataset 2
 
