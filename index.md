@@ -27,6 +27,8 @@ our problem, which resulted in significant improvements.
 
 `(a) Input Space Domain Adaptation, (b) Feature Space Domain Adaptation (Followed from Domain-Adversarial Training of Neural Networks published in Journal of Machine Learning Research 17 (2016)`
 
+<figure class="image"><img src="https://raw.githubusercontent.com/adaptivefer/adaptivefer.github.io/master/assets/images/SystemDiagram.jpg" alt="System Diagram" width="850" height="550"  style="display: block;  margin-left: auto;  margin-right: auto;"><figcaption>(a) Input Space Domain Adaptation, (b) Feature Space Domain Adaptation (Followed from Domain-Adversarial Training of Neural Networks published in Journal of Machine Learning Research 17 (2016)</figcaption></figure>
+
 # Dataset
 
 ## Source Dataset 
