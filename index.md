@@ -241,7 +241,7 @@ Classifiers fine-tuned on CycleGAN translated samples. (a) ResNET18 results on T
 
 ### CycleGAN Trained Models
 
-CycleGAN trained models are available <a href="https://drive.google.com/drive/folders/1yx68i0T6pz095kdr0TNPpzJ_V5LLqAwn?usp=sharing" target="_blank">here</a>.
+CycleGAN trained models are available <a href="https://drive.google.com/drive/folders/1YQMcbfqQBPzH-AnjzQUshtOQNGcIlIF_?usp=sharing" target="_blank">here</a>.
 
 ## Feature Space Unsupervised Domain Adaptation CycleGAN
 We retrained both the classifier with an additional domain classifier network in them. This domain classifier network help in making the features used in classifier independent of any domain information.
