@@ -27,6 +27,10 @@ our problem, which resulted in significant improvements.
 
 # Dataset
 
+Used RAF_DB and Self collected Pakistani facial images 
+
+<figure class="image"><img src="https://raw.githubusercontent.com/adaptivefer/adaptivefer.github.io/master/assets/images/RAF_Pak.jpg" alt="System Diagram" style="display: block;  margin-left: auto;  margin-right: auto;"><figcaption></figcaption></figure>
+
 ## Source Dataset 
 
 Real-world Affective Faces Database (RAF_DB) contains 15338 coloured images of westren facial expressions, we are using only seven classes although RAF_DB contains more than seven classes and around 30K images.
