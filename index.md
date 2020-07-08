@@ -234,7 +234,7 @@ We retrained both the classifier with an additional domain classifier network in
   </tbody>
 </table>
 
-## CycleGAN Treanslated Results
+## CycleGAN Translated Results
 
 <figure class="image"><img src="https://raw.githubusercontent.com/adaptivefer/adaptivefer.github.io/master/assets/images/CycleGAN%20translated%20images.jpg" alt="System Diagram"  style="display: block;  margin-left: auto;  margin-right: auto;"><figcaption></figcaption></figure>
 
@@ -257,7 +257,7 @@ Classifiers trained using feature space domain adaptation approach. (a) VGG16 re
 
 <img src="https://raw.githubusercontent.com/adaptivefer/adaptivefer.github.io/master/assets/images/Classifiers%20trained%20using%20feature%20space%20domain%20adaptation%20approach.JPG" alt="Results" style="display: block;  margin-left: auto;  margin-right: auto;">
 
-# Contributers
+# Contributors
 
 <table style="width:100%; border-collapse: collapse; border: 0px;">
    <tr style="border-collapse: collapse; border: 0px;">
