@@ -204,7 +204,8 @@ Accuracy (Unseen)</th>
 </table>
 
 
-Feature Space Unsupervised Domain Adaptation. We retrained both the classifier with an additional domain classifier network in them. This domain classifier network help in making the features used in classifier independent of any domain information.
+### Feature Space Unsupervised Domain Adaptation CycleGAN
+We retrained both the classifier with an additional domain classifier network in them. This domain classifier network help in making the features used in classifier independent of any domain information.
 
 
 <table class="table table-bordered">
